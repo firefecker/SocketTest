@@ -33,8 +33,8 @@ public class TestService {
     private static void parseProtocol(Socket client) throws IOException {
         InputStream is = client.getInputStream();
         DataInputStream dis = new DataInputStream(is); //读取Java标准数据类型的输入流
-        
-        
+
+
 
         //协议解析
         while (true) {

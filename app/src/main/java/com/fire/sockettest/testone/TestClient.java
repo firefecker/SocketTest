@@ -38,7 +38,7 @@ public class TestClient {
         byte[] bytes = msg.getBytes();         //消息内容
         int totalLen = 1 + 4 + bytes.length;   //消息长度
 
-        out.writeByte(type);                   //写入消息类型
+        out.writeByte(type);                   //消息类型
         out.writeInt(totalLen);                //写入消息内容
         out.write(bytes);                      //写入消息长度
 
