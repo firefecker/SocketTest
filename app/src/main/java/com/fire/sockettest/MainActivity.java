@@ -31,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
         dataProtocol.setDtype(123);
         dataProtocol.setMsgId(456);
         dataProtocol.setPattion(789);
+
+
         dataProtocol.setData("zheshisbjwkbcxwjkbckjcnbskncskdncjdjhcjdjjdjdjdjjdjdjdjjdjjd");
         client.addNewRequest(dataProtocol);
     }
